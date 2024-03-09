@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: center; /*horizontal*/
+    background-attachment: fixed; /*vertical*/
+    background-size: cover;
+
+    transition: color 0.8s ease-in-out, opacity 2s ease-in-out;
+}
+
+.header {
+    position: absolute;
+    margin: 3px;
+    top: 0px;
+    font-size: 0.5rem;
+}
+
+.formWeather {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.formInput {
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 200px;
+    padding: 8px 22px;
+
+    border-radius: 25px;
+    border: 1px solid rgb(179, 179, 179);
+    background-color: rgba(255, 255, 255, 0.7);
+
+    outline: none;
+}
+
+
+.cityName {
+    font-size: 1.5rem;
+    margin: 0px 0px 0px 10px;
+}
+.cityTemp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0px 0px 0px 5px;
+}
+.cityDescription {
+    transform-origin: left top;
+    transform: rotate(-90deg);
+    
+    position: relative;
+    left: calc(100vw - 30px);
+}
+
+.cityMoreDetails {
+    display: flex;
+    justify-content: space-evenly;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+    top: calc(100vh - 60px);
+
+    background-color: rgba(128, 128, 128, 0.428);
+    border-radius: 10px;
+    width: 400px;
+
+    font-size: 1.2rem;
+}
+.cityMoreDetail {
+    margin: 10px;
+}
+.cityMoreDetail p {
+    margin: 1px;
+}
+.cityMoreDetailInfo {
+    font-weight: bold;
+    text-align: center;
+}
+
+.errorMsg {
+    text-align: center;
+    font-size: 0.8rem;
+    color: black;
+}
