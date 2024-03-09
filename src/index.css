@@ -65,7 +65,7 @@ body {
     transform: translate(-50%, -50%);
 
     position: absolute;
-    top: calc(100vh - 60px);
+    top: calc(100dvh - 60px);
 
     background-color: rgba(128, 128, 128, 0.428);
     border-radius: 10px;
