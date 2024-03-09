@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 10px;
+    margin-bottom: 30px;
 }
 .formInput {
     font-size: 1.4rem;
@@ -40,19 +41,19 @@ body {
 
 .cityName {
     font-size: 1.5rem;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 20px;
 }
 .cityTemp {
     font-size: 5rem;
     font-weight: bold;
-    margin: 0px 0px 0px 5px;
+    margin: -10px 0px 0px 14px;
 }
 .cityDescription {
     transform-origin: left top;
     transform: rotate(-90deg);
     
     position: relative;
-    left: calc(100vw - 30px);
+    left: calc(100vw - 35px);
 }
 
 .cityMoreDetails {
@@ -87,4 +88,13 @@ body {
     text-align: center;
     font-size: 0.8rem;
     color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background: url(./mobile-background.jpg) no-repeat center center fixed;
+        background-size: cover;
+        background-position: center; /*horizontal*/
+        background-attachment: fixed; /*vertical*/
+    }
 }

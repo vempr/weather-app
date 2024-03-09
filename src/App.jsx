@@ -15,7 +15,7 @@ function App() {
 
     return(
         <main className="app">
-            <header className="header">Alex Nguyen v1.0</header>
+            <header className="header">Alex Nguyen v1.1</header>
 
             <QueryClientProvider client={client}>
                 <Weather className="weatherContainer"/>
