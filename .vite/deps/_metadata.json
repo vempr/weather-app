@@ -1,0 +1,40 @@
+{
+  "hash": "2c7aaf78",
+  "configHash": "fd86a166",
+  "lockfileHash": "e4321de1",
+  "browserHash": "129c8316",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e39a8808",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d05f134a",
+      "needsInterop": true
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "8e149ffb",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "a81102a7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3ALM24AN": {
+      "file": "chunk-3ALM24AN.js"
+    },
+    "chunk-HL2QZUHZ": {
+      "file": "chunk-HL2QZUHZ.js"
+    }
+  }
+}
